@@ -1,0 +1,28 @@
+/** animation **/
+@keyframes waves
+{
+  0%      {margin-left:0;}
+  50%     {margin-left:-10vw;}
+  100%    {margin-left:0;}
+}
+
+@keyframes shark
+{
+  0%      {transform:rotate(-22deg); bottom:-165px;}
+  10%     {transform:rotate(-22deg); bottom:-165px;}
+  50%     {transform:rotate(15deg); bottom:-70px;}
+  60%     {transform:rotate(15deg); bottom:-70px;}
+  90%     {transform:rotate(-22deg); bottom:-165px;}
+  100%    {transform:rotate(-22deg); bottom:-165px;}
+}
+
+@keyframes boat
+{
+  from {
+    left: -100vw;
+  }
+
+  to {
+    left:100vw;
+  }
+}

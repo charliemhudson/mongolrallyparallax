@@ -1,0 +1,493 @@
+/* INTERNET EXPLORER*/
+/*
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  /*
+  #ocean > li:nth-child(odd) {
+    animation: none;
+  }
+
+  #ocean > li:nth-child(even) {
+    left:-2.5vw;
+    animation: none;
+  }
+}
+*/
+/* SAFARI */
+/* Safari 6.1+ (9.0 is the latest version of Safari at this time) */
+/*
+_::-webkit-full-page-media, _:future, :root #ocean > li:nth-child(odd) {
+      animation: none;
+}
+
+_::-webkit-full-page-media, _:future, :root #ocean > li:nth-child(even) {
+  left:-2.5vw;
+  animation: none;
+}
+
+/*IOS BLOCKER*/
+/*
+_:-webkit-full-screen-ancestor, :root #car-group1 {
+
+  text-align: center;
+  position: fixed;
+  left: 50vw;
+  top: 50vh;
+  -webkit-transform: translate(-50%, -50%) scale(401) translateZ(-2000px);
+  -moz-transform: translate(-50%, -50%) scale(401) translateZ(-2000px);
+  -ms-transform: translate(-50%, -50%) scale(401) translateZ(-2000px);
+  transform: translate(-50%, -50%) scale(401) translateZ(-2000px);
+  color:white;
+  z-index: 3;
+}
+
+/*FIREFOX SELECT*/
+/*
+@-moz-document url-prefix() {
+
+  /*
+  #car-group1 {
+
+    text-align: center;
+    position: fixed;
+    left: 50vw;
+    top: 50vh;
+    -webkit-transform: translate(-50%, -50%) scale(401) translateZ(-2000px);
+    -moz-transform: translate(-50%, -50%) scale(401) translateZ(-2000px);
+    -ms-transform: translate(-50%, -50%) scale(401) translateZ(-2000px);
+    transform: translate(-50%, -50%) scale(401) translateZ(-2000px);
+    color: white;
+    z-index: 3;
+  }
+
+  {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style:preserve-3d;
+    -o-transform-style:preserve-3d;
+    transform-style : preserve-3d;
+  }
+
+  #para1{
+    z-index: 1;
+    opacity:0.98;
+  }
+}*/
+
+
+@media (min-width: 800px) {
+
+  $normal-scene-height:200vh;
+  $sub-scene-height:50vh;
+  $landmark-width:25vw;
+
+
+  $group2-height:1450vh;
+  $scene1-top:0;
+  $scene2-top:$scene1-top+$normal-scene-height;
+  $scene3-top:$scene2-top+$sub-scene-height;
+  $scene4-top:$scene3-top+$normal-scene-height;
+  $scene5-top:$scene4-top+$normal-scene-height;
+  $scene6-top:$scene5-top+$normal-scene-height;
+  $scene7-top:$scene6-top+$normal-scene-height;
+  $scene8-top:$scene7-top+$normal-scene-height;
+
+  $scene-landmark1-top:10vh;
+  $scene-landmark2-top:35vh;
+  $scene-landmark3-bottom:45vh;
+  $scene-landmark4-bottom:25vh;
+
+  $para-font-size:3.0em;
+  $heading-font-size:4.0em;
+
+
+  $car-info-heading-font-size: 3.0em;
+  $car-info-para-font-size: 2.2em;
+
+  .cloud{
+    opacity: 0.8;
+    width:30vw;
+  }
+
+  .cloud1{
+
+    transform: translate(0vw, -50vh) scale(1);
+    left:0vw;
+    top:0vh;
+  }
+
+  .cloud2{
+    right:5vw;
+    top:100vh;
+    @include scale(0.8);
+  }
+
+  .cloud3{
+    top:200vh;
+    left:5vw;
+  }
+
+  .cloud4{
+    right:5vw;
+    top:300vh;
+    @include scale(1.2);
+  }
+
+  article{
+    width:30vw;
+  }
+
+  article > h3 {
+    font-size: $heading-font-size;
+  }
+
+  article > p {
+    font-size: $para-font-size;
+  }
+
+  .landmark{
+    width:30vw;
+  }
+
+  .car{
+    width:20vw;
+    height: auto;
+  }
+
+  .group2 {
+    height:$group2-height;
+    z-index:3;
+  }
+
+  .scene1{
+    position: absolute;
+    width: 100vw;
+    height: $normal-scene-height;
+    z-index: 2;
+    top:$scene1-top;
+    bottom:0;
+  }
+
+  #bg-road1 {
+    top:0;
+    left:0;
+    width:100vw;
+    height:$normal-scene-height;
+    background:url('../images/race road.png');
+    background-color: #658311;
+    background-size: 100vw auto;
+    background-repeat: repeat;
+    background-position: center center;
+    z-index: 1;
+
+  }
+
+  .scene2 {
+    position: absolute;
+    top:$scene2-top;
+    width: 100vw;
+    height: $sub-scene-height;
+    z-index: 3;
+  }
+
+  .scene3{
+
+    position: absolute;
+    top:$scene3-top;
+    width: 100vw;
+    height: $normal-scene-height;
+    z-index: 4;
+  }
+
+  #bg-road3 {
+    top:0;
+    left:0;
+    width:100vw;
+    height:$normal-scene-height;
+    background:url('../images/road.png');
+    background-color: #658311;
+    background-size: 100vw auto;
+    background-repeat: repeat;
+    background-position: center center;
+
+  }
+
+  .scene4{
+    background-color: white;
+    position: absolute;
+    top:$scene4-top;
+    width: 100vw;
+    height: $normal-scene-height;
+    z-index: 4;
+  }
+
+  #bg-road4 {
+    top:0;
+    left:0;
+    width:100vw;
+    height:$normal-scene-height;
+    background:url('../images/road.png');
+    background-color: #658311;
+    background-size: 100vw auto;
+    background-repeat: repeat;
+    background-position: center center;
+
+  }
+
+  .scene5{
+    position: absolute;
+    top: $scene5-top;
+    width: 100vw;
+    height: $normal-scene-height;
+    z-index: 5;
+  }
+
+  #bg-road5 {
+    top:0;
+    left:0;
+    width:100vw;
+    height:300vh;
+    background:url('../images/middle europe road.png');
+    background-color: #446a0d;
+    background-size: 100vw auto;
+    background-repeat: repeat;
+    background-position: center center;
+    z-index: 1;
+
+  }
+
+  .scene6{
+    position: absolute;
+    top: $scene6-top;
+    width: 100vw;
+    height: $normal-scene-height;
+    z-index: 5;
+  }
+
+  #bg-road6 {
+    top:0;
+    left:0;
+    width:100vw;
+    height:$normal-scene-height;
+    background:url('../images/road.png');
+    background-color: #575912;
+    background-size: 100vw auto;
+    background-repeat: repeat;
+    background-position: center center;
+    z-index: 1;
+
+  }
+
+  .scene7{
+    position: absolute;
+    top: $scene7-top;
+    width: 100vw;
+    height: $normal-scene-height;
+    z-index: 5;
+  }
+
+  #bg-road7 {
+    top:0;
+    left:0;
+    width:100vw;
+    height: $normal-scene-height;
+    background:url('../images/tarmac.png');
+    background-color: #8c7b31;
+    background-size: 100vw auto;
+    background-repeat: repeat;
+    background-position: center center;
+    z-index: 1;
+
+  }
+
+  .scene8{
+    position: absolute;
+    top: $scene8-top;
+    width: 100vw;
+    height: $normal-scene-height;
+    z-index: 5;
+  }
+
+  #bg-road8 {
+    top:0;
+    left:0;
+    width:100vw;
+    height: $normal-scene-height;
+    background:url('../images/tarmac.png');
+    background-color: #8c7b31;
+    background-size: 100vw auto;
+    background-repeat: repeat;
+    background-position: center center;
+    z-index: 1;
+
+  }
+
+
+  .landmark{
+    width:$landmark-width;
+    height:auto;
+    z-index: 2;
+  }
+
+  /*scene1*/
+  #big-ben{
+    top:$scene-landmark3-bottom;
+    z-index: 10;
+  }
+
+  /*scene3*/
+  #eiffel-tower{
+    top:$scene-landmark1-top;
+  }
+
+  #manneken-pis {
+    top:$scene-landmark2-top;
+  }
+
+  #brand-gate{
+    bottom:$scene-landmark3-bottom;
+  }
+
+  #conchita-wurst{
+    bottom:$scene-landmark4-bottom;
+  }
+
+  /*scene 4*/
+  #hungary-parliment{
+    top:$scene-landmark1-top;
+  }
+
+
+  #novak-djokovic{
+    top:$scene-landmark2-top;
+  }
+
+  #romanian-bear{
+    bottom:$scene-landmark3-bottom;
+  }
+
+  #sunny-beach{
+    bottom:$scene-landmark4-bottom;
+  }
+
+  /*scene 5*/
+
+  #turkey{
+    top:$scene-landmark1-top;
+  }
+
+  #katshki-pillar{
+    top:$scene-landmark2-top;
+  }
+
+  #kim-kardashian{
+    bottom:$scene-landmark3-bottom;
+  }
+
+  #fire-temple{
+    bottom:$scene-landmark4-bottom;
+  }
+
+  /*scene 6 */
+
+  #snow-leopard{
+    top:$scene-landmark1-top;
+  }
+
+  #ismail-somoni{
+    top:$scene-landmark2-top;
+  }
+
+  #burana-tower{
+    bottom:$scene-landmark3-bottom;
+  }
+
+
+  #borat{
+    bottom:$scene-landmark4-bottom;
+  }
+
+  /*scene7 */
+  #st-basil{
+    top:0;
+  }
+
+  #horses{
+    top:$scene-landmark2-top;
+  }
+
+  #door-to-hell-banner{
+    bottom: 0;
+    left: 50vw;
+    @include transform(translate(-50%,0%));
+    width:$landmark-width;
+    z-index: 303;
+  }
+
+
+  #end-article{
+    width: 40vw;
+  }
+
+
+  #end-article h3{
+    font-size:3em;
+  }
+
+  #end-article p{
+    font-size:2em;
+  }
+
+  .car-info-title{
+    font-size: 4.0em;
+    color:red;
+    z-index: 10;
+    height:10vh;
+    text-align: center;
+  }
+  .car-info {
+    position:relative;
+    display: block;
+    width:100vw;
+    height:63vh;
+  }
+
+
+  .car-info img {
+    width:63vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+
+  }
+
+  .car-info .car-info-text {
+    position:absolute;
+    width:30vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .car-info-text h3{
+    display: block;
+    color:red;
+    font-size:$car-info-heading-font-size;
+  }
+
+  .car-info-text p{
+    display: block;
+
+    font-size:$car-info-para-font-size;
+  }
+
+  .left{
+    left:0;
+  }
+
+  .right {
+    left:50vw;
+  }
+
+
+}
