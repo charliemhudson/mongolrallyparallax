@@ -117,7 +117,7 @@ article {
 }
 /* line 128, ../sass/screen.scss */
 article #desc-1 {
-  top: 20vh;
+  top: 70vh;
 }
 /* line 133, ../sass/screen.scss */
 article #desc-2 {
@@ -428,7 +428,7 @@ ul li {
 .banner-logo {
   position: relative;
   width: auto;
-  height: 7vh;
+  height: 6vh;
   margin-left: 1vw;
   margin-right: 1vw;
 }
@@ -1047,38 +1047,43 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
   }
 
   /* line 136, ../sass/_mediaq.scss */
+  #desc-1 {
+    top: 70vh;
+  }
+
+  /* line 140, ../sass/_mediaq.scss */
   article {
     width: 60vw;
   }
 
-  /* line 140, ../sass/_mediaq.scss */
+  /* line 144, ../sass/_mediaq.scss */
   article > h3 {
     font-size: 4em;
   }
 
-  /* line 144, ../sass/_mediaq.scss */
+  /* line 148, ../sass/_mediaq.scss */
   article > p {
     font-size: 3em;
   }
 
-  /* line 148, ../sass/_mediaq.scss */
+  /* line 152, ../sass/_mediaq.scss */
   .landmark, .landmark-left, .landmark-right {
     width: 30vw;
   }
 
-  /* line 152, ../sass/_mediaq.scss */
+  /* line 156, ../sass/_mediaq.scss */
   .car, #car-group1 .car1, #car-group1 .car2, #car-group1 .car3 {
     width: 25vw;
     height: auto;
   }
 
-  /* line 157, ../sass/_mediaq.scss */
+  /* line 161, ../sass/_mediaq.scss */
   .group2 {
     height: 1450vh;
     z-index: 3;
   }
 
-  /* line 162, ../sass/_mediaq.scss */
+  /* line 166, ../sass/_mediaq.scss */
   .scene1 {
     position: absolute;
     width: 100vw;
@@ -1088,7 +1093,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     bottom: 0;
   }
 
-  /* line 171, ../sass/_mediaq.scss */
+  /* line 175, ../sass/_mediaq.scss */
   #bg-road1 {
     top: 0;
     left: 0;
@@ -1102,7 +1107,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 1;
   }
 
-  /* line 185, ../sass/_mediaq.scss */
+  /* line 189, ../sass/_mediaq.scss */
   .scene2 {
     position: absolute;
     top: 200vh;
@@ -1111,7 +1116,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 3;
   }
 
-  /* line 193, ../sass/_mediaq.scss */
+  /* line 197, ../sass/_mediaq.scss */
   .scene3 {
     position: absolute;
     top: 250vh;
@@ -1120,7 +1125,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 4;
   }
 
-  /* line 202, ../sass/_mediaq.scss */
+  /* line 206, ../sass/_mediaq.scss */
   #bg-road3 {
     top: 0;
     left: 0;
@@ -1133,7 +1138,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     background-position: center center;
   }
 
-  /* line 215, ../sass/_mediaq.scss */
+  /* line 219, ../sass/_mediaq.scss */
   .scene4 {
     background-color: white;
     position: absolute;
@@ -1143,7 +1148,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 4;
   }
 
-  /* line 224, ../sass/_mediaq.scss */
+  /* line 228, ../sass/_mediaq.scss */
   #bg-road4 {
     top: 0;
     left: 0;
@@ -1156,7 +1161,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     background-position: center center;
   }
 
-  /* line 237, ../sass/_mediaq.scss */
+  /* line 241, ../sass/_mediaq.scss */
   .scene5 {
     position: absolute;
     top: 650vh;
@@ -1165,7 +1170,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 5;
   }
 
-  /* line 245, ../sass/_mediaq.scss */
+  /* line 249, ../sass/_mediaq.scss */
   #bg-road5 {
     top: 0;
     left: 0;
@@ -1179,7 +1184,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 1;
   }
 
-  /* line 259, ../sass/_mediaq.scss */
+  /* line 263, ../sass/_mediaq.scss */
   .scene6 {
     position: absolute;
     top: 850vh;
@@ -1188,7 +1193,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 5;
   }
 
-  /* line 267, ../sass/_mediaq.scss */
+  /* line 271, ../sass/_mediaq.scss */
   #bg-road6 {
     top: 0;
     left: 0;
@@ -1202,7 +1207,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 1;
   }
 
-  /* line 281, ../sass/_mediaq.scss */
+  /* line 285, ../sass/_mediaq.scss */
   .scene7 {
     position: absolute;
     top: 1050vh;
@@ -1211,7 +1216,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 5;
   }
 
-  /* line 289, ../sass/_mediaq.scss */
+  /* line 293, ../sass/_mediaq.scss */
   #bg-road7 {
     top: 0;
     left: 0;
@@ -1225,7 +1230,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 1;
   }
 
-  /* line 303, ../sass/_mediaq.scss */
+  /* line 307, ../sass/_mediaq.scss */
   .scene8 {
     position: absolute;
     top: 1250vh;
@@ -1234,7 +1239,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 5;
   }
 
-  /* line 311, ../sass/_mediaq.scss */
+  /* line 315, ../sass/_mediaq.scss */
   #bg-road8 {
     top: 0;
     left: 0;
@@ -1248,7 +1253,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 1;
   }
 
-  /* line 326, ../sass/_mediaq.scss */
+  /* line 330, ../sass/_mediaq.scss */
   .landmark, .landmark-left, .landmark-right {
     width: 25vw;
     height: auto;
@@ -1256,108 +1261,108 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
   }
 
   /*scene1*/
-  /* line 333, ../sass/_mediaq.scss */
+  /* line 337, ../sass/_mediaq.scss */
   #big-ben {
     top: 45vh;
     z-index: 10;
   }
 
   /*scene3*/
-  /* line 339, ../sass/_mediaq.scss */
+  /* line 343, ../sass/_mediaq.scss */
   #eiffel-tower {
     top: 10vh;
   }
 
-  /* line 343, ../sass/_mediaq.scss */
+  /* line 347, ../sass/_mediaq.scss */
   #manneken-pis {
     top: 35vh;
   }
 
-  /* line 347, ../sass/_mediaq.scss */
+  /* line 351, ../sass/_mediaq.scss */
   #brand-gate {
     bottom: 45vh;
   }
 
-  /* line 351, ../sass/_mediaq.scss */
+  /* line 355, ../sass/_mediaq.scss */
   #conchita-wurst {
     bottom: 25vh;
   }
 
   /*scene 4*/
-  /* line 356, ../sass/_mediaq.scss */
+  /* line 360, ../sass/_mediaq.scss */
   #hungary-parliment {
     top: 10vh;
   }
 
-  /* line 361, ../sass/_mediaq.scss */
+  /* line 365, ../sass/_mediaq.scss */
   #novak-djokovic {
     top: 35vh;
   }
 
-  /* line 365, ../sass/_mediaq.scss */
+  /* line 369, ../sass/_mediaq.scss */
   #romanian-bear {
     bottom: 45vh;
   }
 
-  /* line 369, ../sass/_mediaq.scss */
+  /* line 373, ../sass/_mediaq.scss */
   #sunny-beach {
     bottom: 25vh;
   }
 
   /*scene 5*/
-  /* line 375, ../sass/_mediaq.scss */
+  /* line 379, ../sass/_mediaq.scss */
   #turkey {
     top: 10vh;
   }
 
-  /* line 379, ../sass/_mediaq.scss */
+  /* line 383, ../sass/_mediaq.scss */
   #katshki-pillar {
     top: 35vh;
   }
 
-  /* line 383, ../sass/_mediaq.scss */
+  /* line 387, ../sass/_mediaq.scss */
   #kim-kardashian {
     bottom: 45vh;
   }
 
-  /* line 387, ../sass/_mediaq.scss */
+  /* line 391, ../sass/_mediaq.scss */
   #fire-temple {
     bottom: 25vh;
   }
 
   /*scene 6 */
-  /* line 393, ../sass/_mediaq.scss */
+  /* line 397, ../sass/_mediaq.scss */
   #snow-leopard {
     top: 10vh;
   }
 
-  /* line 397, ../sass/_mediaq.scss */
+  /* line 401, ../sass/_mediaq.scss */
   #ismail-somoni {
     top: 35vh;
   }
 
-  /* line 401, ../sass/_mediaq.scss */
+  /* line 405, ../sass/_mediaq.scss */
   #burana-tower {
     bottom: 45vh;
   }
 
-  /* line 406, ../sass/_mediaq.scss */
+  /* line 410, ../sass/_mediaq.scss */
   #borat {
     bottom: 25vh;
   }
 
   /*scene7 */
-  /* line 411, ../sass/_mediaq.scss */
+  /* line 415, ../sass/_mediaq.scss */
   #st-basil {
     top: 0;
   }
 
-  /* line 415, ../sass/_mediaq.scss */
+  /* line 419, ../sass/_mediaq.scss */
   #horses {
     top: 35vh;
   }
 
-  /* line 419, ../sass/_mediaq.scss */
+  /* line 423, ../sass/_mediaq.scss */
   #door-to-hell-banner {
     bottom: 0;
     left: 50vw;
@@ -1369,22 +1374,22 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     z-index: 303;
   }
 
-  /* line 428, ../sass/_mediaq.scss */
+  /* line 432, ../sass/_mediaq.scss */
   #end-article {
     width: 40vw;
   }
 
-  /* line 433, ../sass/_mediaq.scss */
+  /* line 437, ../sass/_mediaq.scss */
   #end-article h3 {
     font-size: 3em;
   }
 
-  /* line 437, ../sass/_mediaq.scss */
+  /* line 441, ../sass/_mediaq.scss */
   #end-article p {
     font-size: 2em;
   }
 
-  /* line 441, ../sass/_mediaq.scss */
+  /* line 445, ../sass/_mediaq.scss */
   .car-info-title {
     font-size: 4.0em;
     color: red;
@@ -1393,7 +1398,7 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     text-align: center;
   }
 
-  /* line 448, ../sass/_mediaq.scss */
+  /* line 452, ../sass/_mediaq.scss */
   .car-info {
     position: relative;
     display: block;
@@ -1401,13 +1406,13 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     height: 63vh;
   }
 
-  /* line 456, ../sass/_mediaq.scss */
+  /* line 460, ../sass/_mediaq.scss */
   .car-info img {
     width: 63vh;
     margin-right: 5vw;
   }
 
-  /* line 463, ../sass/_mediaq.scss */
+  /* line 467, ../sass/_mediaq.scss */
   .car-info .car-info-text {
     position: absolute;
     width: 30vw;
@@ -1417,25 +1422,25 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     transform: translateY(-50%);
   }
 
-  /* line 472, ../sass/_mediaq.scss */
+  /* line 476, ../sass/_mediaq.scss */
   .car-info-text h3 {
     display: block;
     color: red;
     font-size: 3em;
   }
 
-  /* line 478, ../sass/_mediaq.scss */
+  /* line 482, ../sass/_mediaq.scss */
   .car-info-text p {
     display: block;
     font-size: 2.2em;
   }
 
-  /* line 484, ../sass/_mediaq.scss */
+  /* line 488, ../sass/_mediaq.scss */
   .left {
     left: 0;
   }
 
-  /* line 488, ../sass/_mediaq.scss */
+  /* line 492, ../sass/_mediaq.scss */
   .right {
     left: 50vw;
   }

@@ -133,6 +133,10 @@ _:-webkit-full-screen-ancestor, :root #car-group1 {
     @include scale(1.2);
   }
 
+  #desc-1{
+    top: 70vh;
+  }
+
   article{
     width:60vw;
   }
